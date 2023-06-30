@@ -1,9 +1,9 @@
-name: Upload Website
+name: Upload Website s3-bucket
 
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   deploy:
